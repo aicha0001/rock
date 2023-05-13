@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 10px solid black;
+    color: black;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 60px;
+
+}
+
+.circle {
+    /* float: left;
+     width:100px;
+     height:100px; */
+    margin: 20px;
+    border-radius: 50%;
+    /* shape-outside:circle();
+    clip-path:circle(); */
+    background: red;
+    color: white;
+    font-size: 65px;
+    padding: 5px 20px;
+}
+
+.circle:hover {
+    background-color: #6f7a63;
+}
